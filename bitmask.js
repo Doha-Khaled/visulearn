@@ -195,7 +195,8 @@ tblResOp4.innerText = 1 && 1;
             
         }
         else {
-            clearTimeout(timerID);    
+            clearTimeout(timerID);
+             //startBtn.disabled = false;
             }
         
     }
@@ -235,6 +236,7 @@ tblResOp4.innerText = 1 && 1;
 //=============================== Reset Button ===================================
 //=========================Reset Functions============================
     function ResetResult(){
+        startBtn.disabled = false;
        clearTimeout(timerID);
         for (var j =0 ; j <frstNum.length ; j++)
         {
