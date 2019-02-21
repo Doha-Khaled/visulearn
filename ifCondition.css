@@ -1,0 +1,224 @@
+body,
+html {
+    /*    height: 100%;*/
+    margin: 0;
+    background-color: #354a5f;
+    width: 100%
+}
+
+#tab {
+    background-color: #354a5f;
+}
+#siteName{
+    display: inline;
+    font-weight: bold;
+    font-size: 30pt;
+    font-style: italic;
+    color: #eeeeee;
+    position: relative;
+    left: 35px;
+}
+#homebtn{
+    border-radius: 8px;
+    border-style: none;
+    padding: 10px;
+    width: 90px;
+    background-color: #eeeeee;
+    color: #354a5f;
+    font-size: 14pt;
+    font-weight: oblique;
+    position: relative;
+    top:-5px;
+    left: 1065px;
+}
+#homebtn:hover{
+    cursor: pointer;
+    transform: scale(1.05);
+    transition: 100ms;
+}
+
+.tablink {
+    text-align: center;
+    background-color: #354a5f;
+    color: white;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    font-size: 20px;
+    position: relative;
+    left: 350px;
+}
+
+.tablink:hover {
+    background-color: #777;
+}
+
+.tablink:focus {
+    background-color: #777;
+
+}
+
+#ifElse {
+    background-color: rgb(219, 219, 219);
+    padding: 100px 20px;
+    height: 57%;
+    width: 1250px;
+    position: relative;
+    left: 30px;
+    color: rgb(100, 151, 177);
+    font-size: 20pt;
+}
+
+#switch {
+    color: rgb(100, 151, 177);
+    display: none;
+    padding: 100px 20px;
+    height: 57%;
+    width: 1250px;
+    position: relative;
+    left: 30px;
+    background-color: rgb(219, 219, 219);
+}
+
+#ifElseCode,
+#switchCode {
+    position: absolute;
+    top: 190px;
+    width: 440px;
+    left: 840px;
+    border: 1px solid rgb(100, 151, 177);
+    border-radius: 10px;
+    font-size: 17pt;
+
+}
+
+#switchCode {
+    top: 180px;
+}
+
+#ifElseInfo,
+#switchInfo {
+    position: absolute;
+    top: 80px;
+    width: 420px;
+    left: 840px;
+    border: 1px solid rgb(100, 151, 177);
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 17pt;
+}
+
+#switchInfo {
+    position: absolute;
+    top: 50px;
+}
+#animation {
+    width: 200px;
+    position: relative;
+    left: 300px;
+}
+
+#catImg {
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: 50px;
+    left: -100px;
+}
+
+#milkImg {
+    position: absolute;
+    top: 130px;
+    left: 200px;
+    width: 120px;
+    height: 80px;
+}
+
+#buttons {
+    position: absolute;
+    top: 510px;
+    width: 320px;
+    left: 910px;
+
+}
+
+#startAnimate,
+#resetAnimate,
+#startAnimation,
+#resetAnimation {
+
+    border-style: none;
+    border-radius: 10px;
+    background-color: #354a5f;
+    padding: 10px;
+    color: white;
+    font-size: 15pt;
+}
+
+#startAnimate:hover {
+    cursor: pointer;
+}
+
+#resetAnimate:hover {
+    cursor: pointer;
+}
+
+#startAnimation:hover {
+    cursor: pointer;
+}
+
+#resetAnimation:hover {
+    cursor: pointer;
+}
+
+#canDrink {
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: 20px;
+    left: 550px;
+    display: none;
+}
+
+#nomilk {
+    width: 200px;
+    height: 150px;
+    position: absolute;
+    top: 20px;
+    left: 100px;
+    display: none;
+}
+
+#personImg {
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: 50px;
+    left: 200px;
+}
+
+#groceryImg {
+    position: absolute;
+    top: -50px;
+    left: -250px;
+    width: 200px;
+    height: 200px;
+}
+
+#clothesImg {
+    position: absolute;
+    top: 250px;
+    left: -250px;
+    width: 250px;
+    height: 200px;
+}
+
+#gotogrocery {
+    width: 150px;
+    height: 120px;
+    position: absolute;
+    top: 50px;
+    left: 600px;
+    display: none;
+}

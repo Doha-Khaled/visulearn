@@ -1,0 +1,132 @@
+<html>
+
+<head>
+    <title>Bitmask</title>
+    <link rel="shortcut icon" href="images/binary.ico" type="image/x-icon" />
+    <style>@import url("bitmask.css")</style>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+</head>
+
+<body>
+     <div id="header">
+        <section id="siteName">
+            <h3 id="Nme">Visulearn</h3>
+            <div id="logBtns">
+                <input type="button" value="Home" id="headerbtns" >
+            </div>        
+        </section>
+    </div>
+    <div id="slctOp" ><img src="./images/right.png" id="imgarr"></div>
+    <div id="setNums" ><img src="./images/right.png" id="imgarr2"></div>
+    <div id="container">
+        
+        <div id="sqrSetNum">
+            <div class="numss" id="linSetNum">
+                <p>Set Num1 :</p>
+                <input type="text" class="txtInp" id="txtInp1">
+            </div>
+            <div class="numss">
+                <p>Set Num2 :</p>
+                <input type="text" class="txtInp" id="txtInp2">
+            </div>
+            <div class="numss"><button id="inputBtn">Go</button></div>
+        </div>
+
+        <div id="sqrslectOP">
+            <div class="ops" id="opAnd" >And</div>
+            <div class="ops" id="opOr">OR</div>
+            <div class="ops" id="opNot">NOT</div>
+            <div class="ops" id="opXor">XOR</div>
+        </div>
+        <div id="frstNum">
+            <div class="sqrDivs" id="frstBit1">0</div>
+            <div class="sqrDivs" id="frstBit2">1</div>
+            <div class="sqrDivs" id="frstBit3">1</div>
+            <div class="sqrDivs" id="frstBit4">0</div>
+            <div class="sqrDivs" id="frstBit5">1</div>
+            <div class="sqrDivs" id="frstBit6">1</div>
+            <div class="sqrDivs" id="frstBit7">0</div>
+            <div class="sqrDivs" id="frstBit8">1</div>
+            <div class="nums" id="numss" >Num1</div>
+        </div>
+        <br>
+        <div id="operation">AND</div>
+        <div id="secNum">
+            <div class="sqrDivsSec" id="secBit1">1</div>
+            <div class="sqrDivsSec" id="secBit2">0</div>
+            <div class="sqrDivsSec" id="secBit3">0</div>
+            <div class="sqrDivsSec" id="secBit4">1</div>
+            <div class="sqrDivsSec" id="secBit5">1</div>
+            <div class="sqrDivsSec" id="secBit6">0</div>
+            <div class="sqrDivsSec" id="secBit7">0</div>
+            <div class="sqrDivsSec" id="secBit8">1</div>
+            <div class="nums">Num2</div>
+        </div>
+        <br>
+        <hr id="line">
+        <div id="Result">
+            <div class="sqrDivsRes" id="resBit1"></div>
+            <div class="sqrDivsRes" id="resBit2"></div>
+            <div class="sqrDivsRes" id="resBit3"></div>
+            <div class="sqrDivsRes" id="resBit4"></div>
+            <div class="sqrDivsRes" id="resBit5"></div>
+            <div class="sqrDivsRes" id="resBit6"></div>
+            <div class="sqrDivsRes" id="resBit7"></div>
+            <div class="sqrDivsRes" id="resBit8"></div>
+            <div class="nums">New Num</div>
+        </div>
+        <div id="divBtns">
+            <button class="btns" id="startBtn">Start</button>
+            <button class="btns" id="resetBtn">Reset</button>
+        </div>
+        <div id="truthtbl">
+            <div class="line">
+                <div class="line1">0</div>
+                <div class="line1" id="tblOp1"></div>
+                <div class="line1">0</div>
+                <div class="line1">=</div>
+                <div class="line1" id="tblResOp1"></div>
+            </div>
+            <div class="line">
+                <div class="line2">0</div>
+                <div class="line2" id="tblOp2"></div>
+                <div class="line2">1</div>
+                <div class="line2">=</div>
+                <div class="line2" id="tblResOp2"></div>
+            </div>
+            <div class="line">
+                <div class="line3">1</div>
+                <div class="line3" id="tblOp3"></div>
+                <div class="line3">0</div>
+                <div class="line3">=</div>
+                <div class="line3" id="tblResOp3"></div>
+            </div>
+            <div class="line">
+                <div class="line4">1</div>
+                <div class="line4" id="tblOp4"></div>
+                <div class="line4">1</div>
+                <div class="line4">=</div>
+                <div class="line4" id="tblResOp4"></div>
+            </div>
+        </div>
+        <div id="notTruthtbl">
+            <div class="line">
+                <div class="line1">NOT </div>
+                <div class="line1">0</div>
+                <div class="line1">=</div>
+                <div class="line1">1</div>
+            </div>
+            <div class="line">
+                <div class="line2">NOT </div>
+                <div class="line2">1</div>
+                <div class="line2">=</div>
+                <div class="line2">0</div>
+            </div>
+        </div>
+        <div id="tblTrthP" ><p>Truth Table</p></div>
+        <div id="notTblTrthP" ><p>Truth Table</p></div>
+    </div>
+    <script src="bitmask.js"></script>
+</body>
+
+</html>

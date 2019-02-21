@@ -1,0 +1,102 @@
+html{
+    background-color: rgb(219,219,219)
+}
+#form{
+    width: 300px;
+    height: 400px;
+    background-color: rgb(100,151,177);
+    border-radius: 15px;
+    color: beige;
+    font-family: sans-serif;
+}
+#signIn,#reg{
+    border-radius: 10px;
+    border-style: none;
+    padding: 20px;
+    margin-top: 35px;
+    padding-top: 20px;
+    width: 100px;
+}
+#signIn{
+    background-color: rgb(179,205,224);
+    margin-left: 45px;
+
+}
+#signIn:hover{
+    cursor: pointer;
+    transform: scale(1.05);
+    transition: 100ms;
+}
+#reg:hover{
+    cursor: pointer;
+        transform: scale(1.05);
+    transition: 100ms;
+
+}
+#reg{
+    margin-left: 25px;
+}
+#form{
+    margin: 100px;
+    margin-left: 500px;
+    box-shadow: 2px 2px 5px grey;
+
+}
+.input{
+    border-radius: 10px;
+    border-style: none;
+    margin: 10px;
+    margin-left: 50px;
+    height: 35px;
+    padding: 10px;
+    width: 200px;
+}
+#buttons{
+    border-radius: 15px;
+    height: 115px;
+}
+#txt{
+    margin: 15px;
+    padding: 10px;
+}
+h2{
+    text-align: center;
+}
+p{
+    font-size: 10pt;
+}
+#usr{
+     width:55px;
+    opacity: 0.5;
+    position: absolute;
+    left: 515px;
+    top:245px;
+}
+#pswrdImg{
+    width:40px;
+    opacity: 0.5;
+    position: absolute;
+    left: 522;
+    top:310px;
+}
+#us,#ps{
+    text-align: center;
+}
+#usr:hover{
+    transform: scale(1.1);
+    transition: 200ms;
+}
+#pswrdImg:hover{
+    transform: scale(1.1);
+        transition: 200ms;
+
+}
+
+#BackBtn{
+    color: white;
+    font-size: 12px;
+    position: relative;
+    top: -10px;
+    left: 200px;
+    
+}

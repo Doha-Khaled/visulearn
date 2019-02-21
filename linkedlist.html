@@ -1,0 +1,59 @@
+<html>
+
+<head>
+    <title>Linkedlist</title>
+    <link rel="shortcut icon" href="images/LL.png" type="image/x-icon" />
+    <style>@import url("linkedlist.css")</style>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+</head>
+
+<body>
+     <div id="header">
+        <section id="siteName">
+            <h3 id="Nme">Visulearn</h3>
+            <div id="logBtns">
+                <input type="button" value="Home" id="headerbtns" >
+            </div>        
+        </section>
+    </div>
+    <div id="slctOp" ><img src="./images/right.png" id="imgarr"></div>
+    <div id="setNodes" ><img src="./images/right.png" id="imgarr2"></div>
+    <div id="container">
+        <div id="sqrSetNode">
+            <div class="numss" id="linSetNum">
+                <p>Enter Node :</p>
+                <input type="text" class="txtInp" value="10" id="txtInp1">
+            </div>
+            <div class="numss" id="txtInd">
+                <p>Enter Index :</p>
+                <input type="text" class="txtInp" value="0" id="txtInp2">
+            </div>
+        </div>
+        <span id="invalid"></span>
+        
+        <div id="sqrslectOP">
+            <div class="ops" id="opSearch" >Search</div>
+            <div class="ops" id="opInsert">Insert</div>
+            <div class="ops" id="opDelete">Delete</div>
+        </div>
+        
+        <div id="linkedarr">
+            <span id="headNode"><span class=" headArrow"><span class="headAndTail" id="head">head</span>&#8600;</span></span>
+            <div class="sqrDivs" id="frstNode1">1</div>
+            <span class="arrowImg">&#8594;</span>
+            <div class="sqrDivs" id="frstNode2">6</div>
+            <span class="arrowImg">&#8594;</span>
+            <div class="sqrDivs" id="frstNode3">2</div>
+            <span id="tailNode"><span class=" headArrow"><span id="tail">tail</span>&#8601;</span></span>
+        </div>
+    <span id="invalidIndex"></span>
+        <div id="divBtns">
+            <button id="startBtn">Start</button>
+        </div>
+        <div id="linkedCode">
+
+        </div>
+    </div>
+    <script src="linkedlist.js"></script>
+    </body>
+</html>

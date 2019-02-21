@@ -1,0 +1,19 @@
+*{font-family: sans-serif;background-color: rgb(219,219,219);}
+#container{border-radius: 20px; margin: 20px; background-color: rgb(100,151,177); text-align: center;height: 400px;margin:50px auto; width: 350px; text-align: center;}
+form{background-color: rgb(100,151,177);height: 70%;width: 70%;margin-left: 2%;}
+label{color: white; background-color: rgb(100,151,177);padding: 0;margin: 0;}
+input{border-radius: 10px; padding: 5px;margin: 5px;background-color: white;}
+#register{border-radius: 10px;background-color: rgb(219,219,219);;color: black;width: 100px;height: 50px;margin-left: 50%;margin-top: 10%;}
+img{opacity: 0.5;width: 100px;height: 100px;background-color:rgb(100,151,177); }
+table,td,#st{background-color:  rgb(100,151,177);}
+#register:hover{width: 105px;height: 55px;}
+
+#BackBtn{
+    color: white;
+    font-size: 12px;
+    position: relative;
+    top: -10px;
+    left: 110px;
+    background-color: rgb(100,151,177);
+    
+}

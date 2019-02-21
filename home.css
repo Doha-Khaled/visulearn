@@ -1,0 +1,198 @@
+/*----------------------------Header Section-----------------------------------*/
+#header{
+    display: table;
+    position: absolute;
+    margin-top: -9px;
+    margin-left: -9px;
+    width: 1335px;
+    height: 50px;
+    background-color: #354a5f;
+    display: block;
+    padding: 15px;
+}
+
+.headerbtns{
+   border-radius: 8px;
+    border-style: none;
+    padding: 10px;
+    margin-top: 5px;
+    width: 90px;
+    background-color: #eeeeee;
+    color: #354a5f;
+    font-size: 14pt;
+    font-weight: oblique;
+}
+
+#logBtns{
+    margin-left: 850px;
+    display: inline;
+}
+
+.headerbtns:hover{
+    cursor: pointer;
+    transform: scale(1.05);
+    transition: 100ms;
+}
+
+#siteName {
+    margin-top: 20px;
+    margin-left: 50px;
+    display: inline
+}
+
+#Nme{
+    display: inline;
+    font-weight: bold;
+    font-size: 30pt;
+    font-style: italic;
+    color: #eeeeee;
+}
+
+/*----------------------------Body Section-------------------------------------*/
+
+#boody{
+    position: absolute;
+    background-color: #eeeeee;
+    margin-left: -9px;
+    margin-top: 71px;
+    width: 1365px;
+    height: 550px;
+}
+
+.img{
+    position: relative;
+    width: 280px;
+    height: 230px;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+
+.img:hover{
+    cursor: pointer;
+/*
+    transform: scale(1.05);
+    transition: 100ms;
+*/
+}
+
+.pageAncors{
+    font-size: 20pt;
+    text-decoration: none;
+    font-family:monospace;
+    display: block;
+    color: white;
+}
+
+.btnAncors{
+    text-align: center;
+    height: 30px;
+    font-size: 10pt;
+    padding: 10px;
+    background-color: darkgrey;
+    color: white;
+    line-height: 11px;
+}
+
+.section{
+    position: absolute;
+    width: 300px;
+    height: 350px;
+    border: 0.3px solid;
+    display: inline;
+    margin-top: 150px;
+    background-color: #354a5f;
+    text-align: center;
+    border-radius: 10px;
+}
+
+#section1{
+     margin-left: 25px;
+}
+
+#section2{
+    margin-left: 350px;
+}
+
+#section3{
+    margin-left: 675px;
+}
+
+#section4{
+    margin-left: 1000px;
+}
+
+
+
+/*----------------------------Footer Section-----------------------------------*/
+#footer
+{
+    position: absolute;
+    background-color: #354a5f;
+    margin-left: -9px;
+    margin-top: 600px;
+    width: 1365px;
+    height: 280px;
+    display: table;
+}
+        
+.footersection
+{
+    display: table-cell;
+    width: 300px;
+    padding: 50px;
+}
+
+#frmfeedback{
+    margin-left: 100px; 
+    align-content: center;
+}
+#btnfeedback{
+    text-align: center;
+    border: 2px solid;
+    width: 70px;
+    height: 30px;
+    border-radius: 6px;
+    font-size: 11pt;
+}
+
+#txtfeedback{
+    width: 450px;
+    display: block;
+}
+
+.boutUS{
+    font-weight: bold;
+    font-size: 15pt;
+    font-style: italic;
+    color: #eeeeee;   
+}
+
+.aboutUS{
+    font-weight: bold;
+    font-size: 18pt;
+    color: #eeeeee;
+}
+
+#mlBtn{
+    display: block;
+    border-radius: 8px;
+    padding: 10px;
+    margin-top: 5px;
+    width: 50px;
+    background-color: #eeeeee;
+    color: #354a5f;
+    font-size: 16pt;
+    font-weight: oblique;
+    text-decoration: none;
+}
+
+#welcome{
+    display: none;
+    margin-top: 5px;
+    color: #eeeeee;
+    font-size: 20pt;
+    font-weight: oblique;
+    position: absolute;
+    left:1175px;
+    top:25px;
+}

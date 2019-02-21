@@ -1,0 +1,37 @@
+*{margin: 0;padding: 0;background-color: #354a5f;}
+#all{background-color: rgb(219,219,219);margin: 30px;border-radius: 20px;}
+#code,#animation{ width: 300px; height: 150px;font-size: 16pt; padding:  50px; background-color: white; width:50%;position: relative;margin: 50px;border-radius: 10px;padding: 50px;font-size: 20pt;}
+img{max-width: 250px;max-height: 250px;position: absolute;top: 0px;left: 0px;}
+input[type='button']{border-radius: 50px;background-color: darkcyan;color: white;width: 100px;height: 40px;margin: 10px;}
+#container{display: flex;background-color: rgb(219,219,219);border-radius: 20px;}
+#input{text-align: center;height: 50px;background-color: rgb(219,219,219);}
+#hr{color: white;}
+#head{width: 100%;background-color: black;height: 50px;color: white;text-align: center;font-size: 14pt;text-align: center;}
+a{color: white;text-decoration: none;font-size: 16px;background-color: black;font-size: 14pt;padding-left: 50px;position: relative;top: 10px;}
+input[type='button']:hover,a:hover{opacity: 0.7;}
+#des{width: 95%;margin: auto;height: 200px;}
+span{background-color: white;}
+#sp{font-size: 20px;background-color: rgb(219,219,219);}
+#memory{border: black 1px solid;width: 100px;height:80px;text-align: center;background-color: cadetblue;display: inline;position: absolute;top: 50px;left: 380px;}
+#i{background-color:rgb(219,219,219);}
+#true{font-size: 16px;}
+#code{display: flex;}
+#syntax{background-color: white;position: absolute;top: 10px;}
+#football{top:150px;left:300px;background-color: white;}
+#rule{background-color: rgb(219,219,219);font-size: 18pt;position: absolute;left: 35%;font-family: sans-serif;}
+#robot{top: 30px;}
+@keyframes shoot
+{
+    from{color: red;}
+    to{color: greenyellow;}
+}
+
+#now{position: absolute;top: 0px;left: 230px; animation-name: shoot;animation-iteration-count: infinite;animation-duration: 1s;display: none;}
+
+button{ color: black;background-color: #eeeeee;height: 40px;width: 80px;border-radius: 50px;position: absolute;left: 92%;top: 4px;}
+button:hover{opacity: 0.7;}
+
+#des,b{background-color: rgb(219,219,219);font-size: 18pt;font-family: sans-serif;}
+#des{height: 120px;}
+#h{font-size: 26pt;background-color: rgb(219,219,219);}
+

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Register</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link href="register.css" type="text/css" rel="stylesheet">
+    </head>
+    
+    <body>
+        
+        <div id="container">
+            <img src="./images/user_login__115485.png">
+            
+            <form action="home.html">
+             <table>
+                <tr>
+                    <td><label>UserName:</label></td>
+                    <td><input type="text" id="namee" name="namee" required></td>     
+                </tr>
+                <tr>
+                    <td><label>Email:</label></td>
+                    <td><input type="text"  id="mail" name="mail" required></td>      
+                </tr>
+                <tr>
+                    <td><label>Age:</label></td>
+                    <td><input type="text" id="age" name="age"></td>
+                </tr>
+                <tr>
+                    <td><label>Passward:</label></td>
+                    <td><input type="password" id="passward" name="password" required ></td>
+                    <td><span id="st"></span></td>
+                </tr>
+                 
+             </table>
+                <input type="submit" value="Register" id="register">
+            </form>
+            <a href="home.html" id="BackBtn">Back To Home..</a>
+        </div>
+        
+        <script src="register.js"></script>
+    </body>
+</html>

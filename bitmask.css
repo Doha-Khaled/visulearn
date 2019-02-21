@@ -1,0 +1,338 @@
+#header{
+    display: table;
+    position: absolute;
+    margin-top: -30px;
+    margin-left: -9px;
+    width: 1335px;
+    height: 50px;
+    background-color: #354a5f;
+    display: block;
+    padding: 15px;
+}
+
+#headerbtns{
+   border-radius: 8px;
+    margin-left: 1000px;
+    border-style: none;
+    padding: 10px;
+    margin-top: 5px;
+    width: 90px;
+    background-color: #eeeeee;
+    color: #354a5f;
+    font-size: 14pt;
+    font-weight: oblique;
+}
+
+#headerbtns:hover{
+    cursor: pointer;
+    transform: scale(1.05);
+    transition: 100ms;
+}
+
+#logBtns{
+    display: inline;
+}
+
+.headerbtns:hover{
+    cursor: pointer;
+    transform: scale(1.05);
+    transition: 100ms;
+}
+
+#siteName {
+    margin-top: 20px;
+    margin-left: 50px;
+    display: inline
+}
+
+#Nme{
+    display: inline;
+    font-weight: bold;
+    font-size: 30pt;
+    font-style: italic;
+    color: #eeeeee;
+}
+/*============================Body====================================*/
+body{
+    background-color: #354a5f;
+}
+
+#container{
+    border: 1px solid #354a5f;
+    width: 1250px;
+    height: 600px;
+    margin:0 auto;
+    margin-top: 20px;
+    background-color: #eeeeee;
+}
+
+.sqrDivs{
+    width: 40px;
+    height: 40px;
+    background-color: #dddddd;
+    display: inline-block;
+    margin: 3px;
+    text-align: center;
+    color: #354a5f;
+    font-weight: bold;
+    font-size: 25pt;
+}
+.sqrDivsSec{
+    width: 40px;
+    height: 40px;
+    background-color: #dddddd;
+    display: inline-block;
+    margin: 3px;
+    text-align: center;
+    color: #354a5f;
+    font-weight: bold;
+    font-size: 25pt;
+}
+
+.sqrDivsRes{
+    width: 40px;
+    height: 40px;
+    background-color: #dddddd;
+    display: inline-block;
+    margin: 3px;
+    text-align: center;
+    color: #354a5f;
+    font-weight: bold;
+    font-size: 25pt;
+}
+/*==========================================*/
+#slctOp{
+    position: relative;
+    margin-top: 388px;
+    float: left;
+    width: 50px;
+    height: 95px;
+    display: inline;
+    background-color: orange;
+}
+
+#imgarr{
+    margin-left: 17px;
+    margin-top: 40px;
+}
+
+#imgarr2{
+    margin-left: 17px;
+    margin-top: 37px;
+}
+
+#setNums{
+    position: relative;
+    margin-top: 250px;
+    margin-left: -50px;
+    float: left;
+    width: 50px;
+    height: 84px;
+    display: inline;
+    background-color: Green;
+}
+
+.txtInp{
+    width: 50px;
+}
+
+.numss{
+    padding: 3px;
+    background-color: Green;
+    color: white;
+    text-align: center;
+    
+}
+
+P , button {
+    display: inline;
+}
+
+#inputBtn{
+    border-radius: 3px;
+    border-style: none;
+    width: 50px;
+    background-color: white;
+    color: black;
+    font-size: 14pt;
+}
+
+#inputBtn:hover{
+    cursor: pointer;
+    transform: scale(1.05);
+    transition: 100ms;
+}
+
+
+
+/*==============================================================*/
+#sqrslectOP{
+    position: absolute;
+    float: left;
+    width: 100px;
+    height: 95px;
+    margin-left: 3px;
+    margin-top: 387px;    
+}
+
+#sqrSetNum{
+    position: relative;
+    float: left;
+    width: 150px;
+    height: 80px;
+    margin-left: 3px;
+    margin-top: 250px;
+    display: inline-block;
+    background-color: green;
+    display: none;
+}
+
+.ops{
+    padding: 3px;
+    background-color: orange;
+    color: white;
+}
+
+.nums{
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    margin: 3px;
+    text-align: center;
+    color: #354a5f;
+    font-weight: bold;
+    font-size: 15pt;
+}
+
+#line{
+    border: 1px solid #354a5f;
+    width: 500px;
+    margin-top: -5px;
+    margin-left: 380px;
+}
+
+#frstNum , #secNum , #Result{
+    margin-left: 430px;
+}
+
+#frstNum{
+    margin-top: 160px;
+}
+
+/*======================opterations =============================*/
+
+#operation{
+    font-size: 15pt;
+    margin-left: 380px;
+    margin-top: -20px;
+    font-weight: bold;
+    color: #354a5f;
+    font-family: Arial;
+}
+
+#opAnd:hover{
+    background-color: black;
+     cursor: pointer;
+    transform: scale(1.05);
+    transition: 100ms;
+}
+
+#opOr:hover{
+    background-color: black;
+     cursor: pointer;
+    transform: scale(1.05);
+    transition: 100ms;
+}
+
+#opXor:hover{
+    background-color: black;
+     cursor: pointer;
+    transform: scale(1.05);
+    transition: 100ms;
+}
+
+#opNot:hover{
+    background-color: black;
+     cursor: pointer;
+    transform: scale(1.05);
+    transition: 100ms;
+}
+
+/*======================buttons =============================*/
+#divBtns{
+    margin-left: 500px;
+    margin-top: 60px;
+}
+
+.btns{
+    border-radius: 10px;
+    border-style: none;
+    padding: 20px;
+    margin-top: 35px;
+    padding-top: 20px;
+    width: 100px;
+    background-color: #354a5f;
+    color: white;
+    font-size: 14pt;
+}
+
+.btns:hover{
+    cursor: pointer;
+    transform: scale(1.05);
+    transition: 100ms;
+}
+
+/*======================Truth Table =============================*/
+#truthtbl{
+    border: 1px solid rgb(100, 151, 177);
+    width: 200px;
+    height: 113px;
+    margin-left: 1000px;
+    margin-top: -100px;
+    border-radius: 10px;
+    font-size: 17pt;
+    color: #354a5f;
+/*    display: none;*/
+}
+
+.line{
+    text-align: center;
+}
+
+.line1 , .line2 , .line3 , .line4{
+    display: inline-block;
+}
+
+#notTruthtbl{
+    border: 1px solid rgb(100, 151, 177);
+    width: 200px;
+    height: 63px;
+    margin-left: 1000px;
+    margin-top: -50px;
+    border-radius: 10px;
+    color: #354a5f;
+    font-size: 17pt;
+    display: none;
+}
+
+#tblTrthP {
+    position: relative;
+    margin-top: -150px;
+    margin-left: 1025px;
+    color: #354a5f;
+    font-size: 20pt;
+/*    display: none;*/
+}
+
+#notTblTrthP{
+     position: relative;
+    margin-top: -100px;
+    margin-left: 1025px;
+    color: #354a5f;
+    font-size: 20pt;
+    display: none;
+}
+
+#linSetNum{
+/*    visibility:visible*/
+}

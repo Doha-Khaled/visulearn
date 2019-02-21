@@ -1,0 +1,64 @@
+<html>
+
+<head>
+    <title>Conditions</title>
+    <link rel="shortcut icon" href="./images/cond.png" type="image/x-icon" />
+    <style>
+        @import url("ifCondition.css")
+
+    </style>
+    <script src="jquery-3.3.1.js"></script>
+
+    <script src="ifCondition.js"></script>
+</head>
+
+<body>
+    <div id="tab">
+        <h3 id="siteName">Visulearn</h3>
+        <button id="homebtn" >Home</button>
+        <button class="tabLink" id="ifTab">if...else</button>
+        <button class="tabLink" id="switchTab">switch</button></div>
+
+
+    <div id="ifElse" class="tabContent">
+        <div id="ifElseInfo">*If statement executes if a specified condition is true. If the condition is false, else block will be executed.</div>
+        <div id="ifElseCode">
+            <pre><code><div id="line1">   if(plate_contains_milk)</div><div>      {</div><div id="line2">        cat_move_forward();</div><div>      }</div><div id="line3">   else</div><div>      {</div><div id="line4">        cat_move_backward();</div><div>      }</div><div id="rest">    /*The rest of the code*/</div></code></pre>
+        </div>
+        <div id="animation">
+            <img src="./images/cat.jpg" id="catImg">
+            <img src="./images/milk.png" id="milkImg">
+        </div>
+        <div id="buttons">
+            <button id="startAnimate">start animation</button>
+            <button id="resetAnimate">reset animation</button>
+        </div>
+        <img src="./images/icandrink.png" id="canDrink">
+        <img src="./images/nomilk.png" id="nomilk">
+
+    </div>
+
+
+
+
+
+    <div id="switch" class="tabContent">
+        <div id="switchInfo">*The switch expression is evaluated once. The value of the expression is compared with the values of each case. If there is a match, the associated block of code is executed.</div>
+        <div id="switchCode">
+            <pre><code><div id="line1switch">   switch(shop)</div><div>      {</div><div>        case 'grocery':</div><div id="line2switch">         go_right();</div><div id="line3switch">         break;</div><div>        case 'clothesShop':</div><div id="line4switch">          go_left();</div><div>          break;</div><div>      }</div><div id="line5switch">    /*The rest of the code*/</div></code></pre>
+        </div>
+        <div id="animation">
+            <img src="./images/person.png" id="personImg">
+            <img src="./images/grocery.jpg" id="groceryImg">
+            <img src="./images/clothes.jpg" id="clothesImg">
+        </div>
+        <div id="buttons">
+            <button id="startAnimation">start animation</button>
+            <button id="resetAnimation">reset animation</button>
+        </div>
+        <img src="./images/gotogrocery.png" id="gotogrocery">
+    </div>
+
+</body>
+
+</html>
