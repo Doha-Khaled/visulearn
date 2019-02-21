@@ -197,6 +197,7 @@ tblResOp4.innerText = 1 && 1;
         else {
             clearTimeout(timerID);
              //startBtn.disabled = false;
+//            inputBtn.disabled = false;
             }
         
     }
@@ -204,6 +205,7 @@ tblResOp4.innerText = 1 && 1;
 
 //=========== Action of start btn ========================
     startBtn.addEventListener('click', function(){
+//        inputBtn.disabled = true;
         startBtn.disabled = true;
         var opera = operName.innerText;
         switch(opera){
@@ -237,6 +239,7 @@ tblResOp4.innerText = 1 && 1;
 //=========================Reset Functions============================
     function ResetResult(){
         startBtn.disabled = false;
+//        inputBtn.disabled = false;
        clearTimeout(timerID);
         for (var j =0 ; j <frstNum.length ; j++)
         {
@@ -252,6 +255,7 @@ tblResOp4.innerText = 1 && 1;
 //=========== Action of Reset btn ========================
     resetBtn.addEventListener('click', function(){
         startBtn.disabled = false;
+//        inputBtn.disabled = false;
         var operati = operName.innerText;
         switch(operati){
             case "AND":
@@ -287,6 +291,8 @@ tblResOp4.innerText = 1 && 1;
     
 //=============================== Button GOooooooooo =============================
     inputBtn.addEventListener('click', function(){
+        clearTimeout(timerID);
+        startBtn.disabled= false;
         for(var i=0 ; i<ResArray.length ; i++){
             ResArray[i].style.backgroundColor = '#dddddd';
             ResArray[i].innerText = "";
