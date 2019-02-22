@@ -316,18 +316,18 @@ P , button {
 }
 
 #tblTrthP {
-    position: relative;
-    margin-top: -150px;
-    margin-left: 1025px;
+    position: absolute;
+    top: 420px;
+    left: 1100px;
     color: #354a5f;
     font-size: 20pt;
 /*    display: none;*/
 }
 
 #notTblTrthP{
-     position: relative;
-    margin-top: -100px;
-    margin-left: 1025px;
+     position: absolute;
+    top: 430px;
+    left: 1100px;
     color: #354a5f;
     font-size: 20pt;
     display: none;

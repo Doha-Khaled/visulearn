@@ -291,26 +291,35 @@ tblResOp4.innerText = 1 && 1;
     
 //=============================== Button GOooooooooo =============================
     inputBtn.addEventListener('click', function(){
-        clearTimeout(timerID);
-        startBtn.disabled= false;
-        for(var i=0 ; i<ResArray.length ; i++){
-            ResArray[i].style.backgroundColor = '#dddddd';
-            ResArray[i].innerText = "";
+        var numbe1 =parseInt(txtInp1.value);
+        var numbe2 =parseInt(txtInp2.value);
+        if (isNaN(numbe1) || isNaN(numbe2))
+            {
+                window.alert("Invalid Numbers!")
+            }
+        else{
+            clearTimeout(timerID);
+            startBtn.disabled= false;
+            for(var i=0 ; i<ResArray.length ; i++){
+                ResArray[i].style.backgroundColor = '#dddddd';
+                ResArray[i].innerText = "";
+            }
+            var num1 = txtInp1.value;
+            var num2 = txtInp2.value;
+            var numb1 = (num1 >>> 0).toString(2);
+            var numb2 = (num2 >>> 0).toString(2);
+            while(numb1.length < 8){
+                numb1 = "0"+numb1;
+            }
+            while(numb2.length < 8){
+                numb2 = "0"+numb2;
+            }
+            for (var i = 0 ; i<8 ; i++){
+                frstNum[i].innerText = parseInt(numb1.charAt(i));
+                secNum[i].innerText = parseInt(numb2.charAt(i));      
+            }    
         }
-        var num1 = txtInp1.value;
-        var num2 = txtInp2.value;
-        var numb1 = (num1 >>> 0).toString(2);
-        var numb2 = (num2 >>> 0).toString(2);
-        while(numb1.length < 8){
-            numb1 = "0"+numb1;
-        }
-        while(numb2.length < 8){
-            numb2 = "0"+numb2;
-        }
-        for (var i = 0 ; i<8 ; i++){
-            frstNum[i].innerText = parseInt(numb1.charAt(i));
-            secNum[i].innerText = parseInt(numb2.charAt(i));      
-        }    
+        
     })
 })
 
